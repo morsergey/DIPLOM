@@ -6,8 +6,8 @@ if not find_dotenv():
 else:
     load_dotenv()
 
-BOT_TOKEN = os.getenv('5746583328:AAFDFaFJ8slUTdRV1UlH_hZIWbbiyyo9W1c')
-RAPID_API_KEY = os.getenv('4be51f1e2cmsh6a32f721a78b683p1b0045jsn3beeed16815c')
+BOT_TOKEN = os.getenv('BOT_TOKEN')
+RAPID_API_KEY = os.getenv('RAPID_API_KEY')
 DEFAULT_COMMANDS = (
     ('start', "Запустить бота"),
     ('help', "Вывести справку")
